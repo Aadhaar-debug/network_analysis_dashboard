@@ -110,7 +110,7 @@ xhr.send();
 function measureNetworkSpeed() {
 const startTime = Date.now();
 const fileSize = 1024 * 1024 * 10; // 10 MB
-const url = "https://speed.hetzner.de/10GB.bin"; // replace with your preferred file URL
+const url = "https://speed.hetzner.de/10GB.bin"; 
 const xhr = new XMLHttpRequest();
 xhr.open("GET", url + "?r=" + Math.random(), true);
 xhr.responseType = "arraybuffer";
